@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans:wght@200;300;400&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans';
+    box-sizing: border-box;
+}
+.container-1{
+    height: 60%;
+    width: 100%;
+}
+.navigation-bar{
+    overflow: hidden; 
+
+}
+
+.navbar{
+    height: 1;
+    display: center;
+    align-items: center;
+
+ 
+}
+nav{
+    flex: 1;
+    text-align: right;
+    padding-right: 50px;
+   
+ 
+
+}
+
+.navbar ul li{
+    list-style: none; 
+    display:inline-block;  
+   padding-right: 10px;
+  
+}
+.navbar ul li a{
+    font-weight: 400;
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(89, 89, 89); 
+    opacity: 0.9;
+}
+.navbar ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.navbar ul li a:active{
+    color: rgb(0, 0, 0);
+}
+.airtel-logo{
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 25px;
+    padding-top: 5px;
+    padding-left: 20px;
+  
+}
+.picture{
+    width: 110px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    justify-content: center;
+}
+.content-1{
+    flex:1;
+    background-color:rgb(246, 243, 243);
+    border-radius: none;
+    align-items: center;
+
+}
+.content-2{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+   
+
+} 
+.input-1{
+    margin: 0;
+    padding-bottom: 20px;
+    margin-top: 0!important;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    
+
+}
+.input-section{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    border:none;
+    border-bottom:  1px solid #999;
+    outline: none;
+    color: black; 
+    transition: all .2s ease-in-out 0s;
+}
+.input-section:hover{
+    border-bottom-color: rgb(120, 65, 249);
+}
+::placeholder{
+    color: rgb(205, 203, 203);
+    font-weight: 200;
+}
+.guide-text{
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0;
+}
+.guide-text-2{
+    color:  rgb(209, 24, 24);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0;
+}
+.login{
+    background-color: #E40000;
+    border: none;
+    color: white;
+    padding: 15px 110px;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ .login:hover{
+    background-color: #aa0404;
+ }
+ .login:active{
+    background-color: #aa0404;
+ }
+.note{
+    color:  rgb(209, 24, 24);
+    width: 290px;
+    margin-bottom: 100px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.container-2{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(228, 0, 0);
+}
+.payments{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    justify-content: center;
+}
+.payments-1{
+    flex:1;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.header{
+    margin: 0;
+    font-weight: 300;
+}
+.payments-2{
+    flex:1;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 32px;
+}
+.paragraph-1{
+    margin-bottom: 10px;
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+
+}
+.content-3{
+    flex:1;
+    color: #E40000;
+    margin-left: 90px;
+    font-size: 30px;
+
+}
+.header-6{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+.header-2{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 60px;
+
+}
+.paragraph-2{
+    color: #545454;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.code{
+    display: flex;
+    flex-direction: row;
+       
+}
+.code-image{
+    height: 50%;
+}
+.paragraph-3{
+    color: #acacac;
+    font-size: 15px;
+    margin-left: 18px;
+}
+.phone-image{
+    flex: 1;
+}
+.phone{
+    margin-top: -90px;
+    padding-right: 120px;
+}
+.footer{
+    display: flex;
+    background-color: #333;
+    height: 100px;
+    width: 100%;
+}
+.container-4{
+    flex: 1; 
+}
+.paragraph-4{
+    color: #9F9F9F;
+   padding-left: 60px;
+    padding-top: 30px;
+    font-size: 13px;
+    font-weight: 200;
+}
+.container-5{
+    flex: 1;
+    padding-right: 40px;
+}
+.last-image1{
+    float: right;
+    width: 80px;
+    height: 40px;
+    padding-top: 35px;
+
+
+}
+.last-image2{
+    float: right;
+    width: 70px;
+    height: 30px;
+    padding-right: 25px;
+    padding-top: 40px;
+
+}
